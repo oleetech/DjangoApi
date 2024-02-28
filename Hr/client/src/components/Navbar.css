@@ -1,0 +1,21 @@
+/* Navbar.css */
+
+.navbar-container {
+  position: relative;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 8%;
+  
+  right: -100%;
+  width: max-content;
+  height: max-content;
+  background: rgba(0, 0, 0, 0.9);
+  transition: right 0.3s ease;
+  z-index: 2000;
+}
+
+.mobile-menu.open {
+  right: 0;
+}
